@@ -41,7 +41,8 @@ listGodzilla_t *g_add_node(listGodzilla_t **head, const char *str, int number)
  *
  * Return: size of list
  */
-listGodzilla_t *g_add_node_end(listGodzilla_t **head, const char *str, int number)
+listGodzilla_t *g_add_node_end(listGodzilla_t **head,
+		const char *str, int number)
 {
 	listGodzilla_t *new_node, *node;
 
@@ -75,7 +76,7 @@ listGodzilla_t *g_add_node_end(listGodzilla_t **head, const char *str, int numbe
 }
 
 /**
- * g_print_list_str - prints only the str element of a listGodzilla_t linked list
+ * g_print_list_str - prints only the str elem of a listGodzilla_t linked list
  * @h: pointer to first node
  *
  * Return: size of list

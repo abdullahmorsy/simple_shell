@@ -45,7 +45,8 @@ int g_is_chain(infoGodzilla_t *info, char *buf, size_t *p)
  *
  * Return: Void
  */
-void g_check_chain(infoGodzilla_t *info, char *buf, size_t *p, size_t i, size_t len)
+void g_check_chain(infoGodzilla_t *info,
+		char *buf, size_t *p, size_t i, size_t len)
 {
 	size_t j = *p;
 
